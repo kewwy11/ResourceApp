@@ -69,8 +69,9 @@ export default{
         },
         removeResource(resId){
             const resIndex = this.storedResources.findIndex(res => res.id === resId);
-                this.storedResources.splice(resIndex, 1)
-            }
+            this.storedResources.splice(resIndex, 1)
+
         }
     }
+}
 </script>
